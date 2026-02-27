@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --color01: hsl(0, 0%, 7%);
+    --color02: hsl(0, 0%, 42%);
+    --color03: hsl(47, 88%, 63%);
+    --fonte: 'Figtree', sans-serif;
+}
+
+body{
+    background-color: var(--color03);
+    font-family: var(--fonte);
+}
+
+main{
+    background-color: white;
+    max-width: 340px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    box-shadow: 10px 10px black;
+}
+
+header > img{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+p{
+    font-size: 16px;
+}
+
+p#destaque{
+    background-color: var(--color03);
+    font-weight: 800;
+    width: 85px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header > p{
+    font-weight: 500;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--color03);
+    transition-duration: 0.5s;
+}
+
+footer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+footer > img{
+    height: 35px;
+}
+
+span{
+    font-weight: 800;
+    padding-left: 10px;
+}
