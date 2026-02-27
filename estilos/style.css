@@ -16,9 +16,10 @@ body{
 
 main{
     background-color: white;
-    max-width: 340px;
+    max-width: 310px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
     margin: auto;
     margin-top: 15vh;
     margin-bottom: 15vh;
@@ -64,6 +65,10 @@ a{
 a:hover{
     color: var(--color03);
     transition-duration: 0.5s;
+}
+
+p#texto{
+    color: var(--color02);
 }
 
 footer{
