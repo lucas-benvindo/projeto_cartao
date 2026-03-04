@@ -9,21 +9,33 @@
     --fonte: 'Figtree', sans-serif;
 }
 
+*{
+    box-sizing: border-box;
+}
+
+
 body{
     background-color: var(--color03);
     font-family: var(--fonte);
 }
 
+div#container{
+    height: 97vh;
+    position: relative;
+}
+
 main{
     background-color: white;
+    width: 90%;
     max-width: 310px;
     padding: 20px;
     border-radius: 20px;
     border: 1px solid black;
-    margin: auto;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
     box-shadow: 10px 10px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 header > img{
